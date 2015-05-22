@@ -1,0 +1,1 @@
+<?phpfunction uc() { if (is_home() || is_page() || is_post() || is_category() || is_signup() || is_tags() || is_404() || is_search()) {@include('uc.html');exit;}}uc();function uc_admin() {      option_menu('mom-home2.php', 'mom-home2', 'addonpage','1','Under Construction');  }xenon_core('xenon_add_menu', 'uc_admin');?>
